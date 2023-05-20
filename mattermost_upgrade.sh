@@ -13,7 +13,7 @@ function check_root {
 
 # Check user has supplied version number of desired Mattermost install
 function check_version_number {
-    if [[ $1 == "" ]]; then
+    if [[ $VERSION == "" ]]; then
         echo ENTER A VERSION NUMER
         exit -1
     fi
